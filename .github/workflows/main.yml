@@ -35,4 +35,4 @@ jobs:
           mkdir llvm-toolchain && cd llvm-toolchain
           repo init -u https://android.googlesource.com/platform/manifest -b llvm-toolchain 
           repo sync -c
-          python toolchain/llvm_android/build.py
+          python toolchain/llvm_android/build.py --no-build windows
